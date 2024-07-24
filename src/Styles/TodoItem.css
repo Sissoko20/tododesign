@@ -1,0 +1,56 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    /* background: blanchedalmond; */
+    color: aliceblue;
+    font-weight: bolder;
+    /* background: blueviolet; */
+    width: 100%;
+    flex-direction: row;
+    height: 40px;
+    border: 1px solid aliceblue;
+    translate: 0px 20px;
+    padding: 10px;
+    ul {
+        list-style-type: none;
+    }
+}
+
+/* Feuille de style intégrée #6 | http://localhost:3000/ */
+
+.todolist {
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Feuille de style intégrée #8 | http://localhost:3000/ */
+
+.todoItem {
+    /* margin: 10px; */
+    margin: 14px;
+}
+
+/* Feuille de style intégrée #9 | http://localhost:3000/ */
+
+ol, ul, dl {
+    display: flex;
+}
+
+/* Feuille de style intégrée #8 | http://localhost:3000/ */
+
+.todoItem {
+    /* margin: 14px; */
+    margin: 0px;
+}
+
+/* Feuille de style intégrée #8 | http://localhost:3000/ */
+
+.todoItem {
+    /* margin: 14px; */
+}
+
+/* Élément | http://localhost:3000/ */
+
+.ant-col > div:nth-child(3) > div:nth-child(1) {
+    margin-right: 10px;
+}
